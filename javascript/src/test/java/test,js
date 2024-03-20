@@ -1,0 +1,5 @@
+const persona = require('./persona'); // Importar el objeto que vamos a probar
+
+test('saludar devuelve el saludo correcto', () => {
+  expect(persona.saludar()).toBe('¡Hola! Mi nombre es Fernanda y tengo 21 años.');
+});
